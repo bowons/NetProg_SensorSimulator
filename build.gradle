@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.smartfarm'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20231013'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

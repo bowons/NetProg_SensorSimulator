@@ -1,0 +1,27 @@
+{
+  "HOST_UDP": "127.0.0.1",
+  "PORT_UDP": 12345,
+  "SENSORS": [
+    {
+      "location": "Greenhouse 1",
+      "sensorId": 1
+    },
+    {
+      "location": "Greenhouse 2",
+      "sensorId": 2
+    },
+    {
+      "location": "Greenhouse 3",
+      "sensorId": 3
+    },
+    {
+      "location": "Greenhouse 4",
+      "sensorId": 4
+    },
+    {
+      "location": "Greenhouse 5",
+      "sensorId": 5
+    }
+  ],
+  "SEND_INTERVAL": 10
+}
